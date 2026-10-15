@@ -1,0 +1,1 @@
+import{r as e}from"./tslib.es6-qUHyP9zl.js";import{n as t}from"./decorators-CTQVWMDG.js";import{t as n}from"./AnalysisView-slUldT2o.js";var r=class extends n{};r=e([t(`esri.views.3d.analysis.AnalysisView3D`)],r);var i=r;export{i as t};

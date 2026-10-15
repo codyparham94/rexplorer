@@ -1,0 +1,1 @@
+import{t as e}from"./index-B90Pl9KA.js";import{x as t}from"./promiseUtils-BFSgbriP.js";import{t as n}from"./image-BcQhSbpx.js";async function r(r){let i=e(()=>import(`./mask-svg-CaPURSQQ.js`),[]),a=e(()=>import(`./overlay-svg-BXXbw8r4.js`),[]),o=n((await i).default,{signal:r}),s=n((await a).default,{signal:r}),c={mask:await o,overlay:await s};return t(r),c}export{r as t};

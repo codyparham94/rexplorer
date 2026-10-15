@@ -1,0 +1,1 @@
+import{t as e}from"./request-BM6xEawX.js";import{i as t,n,r}from"./utils-CUOodv55.js";import{t as i}from"./EditUnitIdentifiersResult-CYbjh19W.js";async function a(a,o,s){let c=n(a),l={...o.toJSON(),f:`json`},u=t({...c.query,...l}),d=r(u,{...s,method:`post`,authMode:`no-prompt`}),f=`${c.path}/unitIdentifiers/resize`,{data:p}=await e(f,d);return i.fromJSON(p)}export{a as resize};

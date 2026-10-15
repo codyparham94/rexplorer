@@ -1,0 +1,1 @@
+import{c as e}from"./VertexArrayObject-BavY3-6C.js";function t(t,n,r,i=``){return new e(t,i+n.vertexShader,i+n.fragmentShader,r)}export{t};

@@ -1,0 +1,1 @@
+import"./apiConverter-CNjvPxcQ.js";export{r as execute,i as executeMany,n as supportsCurves}from"./labelPointOperator-CAPcRsX2.js";

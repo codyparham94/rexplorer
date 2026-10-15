@@ -1,0 +1,1 @@
+import{C as e,F as t,b as n,w as r}from"./runtime-BP3LLHbo.js";var i=e(class extends r{constructor(){super(...arguments),this.key=t}render(e,t){return this.key=e,t}update(e,[t,r]){return t!==this.key&&(n(e),this.key=t),r}});export{i as t};

@@ -1,0 +1,534 @@
+{
+ "utensils": {
+  "x": 0,
+  "y": 0,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "hamburger": {
+  "x": 60,
+  "y": 0,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "coffee": {
+  "x": 120,
+  "y": 0,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "beer": {
+  "x": 180,
+  "y": 0,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "wine": {
+  "x": 240,
+  "y": 0,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "cup-soda": {
+  "x": 300,
+  "y": 0,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "apple": {
+  "x": 360,
+  "y": 0,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "shopping-cart": {
+  "x": 420,
+  "y": 0,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "store": {
+  "x": 480,
+  "y": 0,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "shopping-bag": {
+  "x": 540,
+  "y": 0,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "shirt": {
+  "x": 0,
+  "y": 60,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "hammer": {
+  "x": 60,
+  "y": 60,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "smartphone": {
+  "x": 120,
+  "y": 60,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "book-open": {
+  "x": 180,
+  "y": 60,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "flower": {
+  "x": 240,
+  "y": 60,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "recycle": {
+  "x": 300,
+  "y": 60,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "puzzle": {
+  "x": 360,
+  "y": 60,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "palette": {
+  "x": 420,
+  "y": 60,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "guitar": {
+  "x": 480,
+  "y": 60,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "paperclip": {
+  "x": 540,
+  "y": 60,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "trophy": {
+  "x": 0,
+  "y": 120,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "fuel": {
+  "x": 60,
+  "y": 120,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "plug-zap": {
+  "x": 120,
+  "y": 120,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "car": {
+  "x": 180,
+  "y": 120,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "wrench": {
+  "x": 240,
+  "y": 120,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "car-taxi-front": {
+  "x": 300,
+  "y": 120,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "circle-parking": {
+  "x": 360,
+  "y": 120,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "bus": {
+  "x": 420,
+  "y": 120,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "plane": {
+  "x": 480,
+  "y": 120,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "truck": {
+  "x": 540,
+  "y": 120,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "landmark": {
+  "x": 0,
+  "y": 180,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "banknote": {
+  "x": 60,
+  "y": 180,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "house": {
+  "x": 120,
+  "y": 180,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "paint-roller": {
+  "x": 180,
+  "y": 180,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "briefcase": {
+  "x": 240,
+  "y": 180,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "scale": {
+  "x": 300,
+  "y": 180,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "warehouse": {
+  "x": 360,
+  "y": 180,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "factory": {
+  "x": 420,
+  "y": 180,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "key": {
+  "x": 480,
+  "y": 180,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "printer": {
+  "x": 540,
+  "y": 180,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "washing-machine": {
+  "x": 0,
+  "y": 240,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "party-popper": {
+  "x": 60,
+  "y": 240,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "radio": {
+  "x": 120,
+  "y": 240,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "zap": {
+  "x": 180,
+  "y": 240,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "droplet": {
+  "x": 240,
+  "y": 240,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "scissors": {
+  "x": 300,
+  "y": 240,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "sparkles": {
+  "x": 360,
+  "y": 240,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "paw-print": {
+  "x": 420,
+  "y": 240,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "stethoscope": {
+  "x": 480,
+  "y": 240,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "hospital": {
+  "x": 540,
+  "y": 240,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "pill": {
+  "x": 0,
+  "y": 300,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "glasses": {
+  "x": 60,
+  "y": 300,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "heart-handshake": {
+  "x": 120,
+  "y": 300,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "church": {
+  "x": 180,
+  "y": 300,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "building-2": {
+  "x": 240,
+  "y": 300,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "users": {
+  "x": 300,
+  "y": 300,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "flame": {
+  "x": 360,
+  "y": 300,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "shield": {
+  "x": 420,
+  "y": 300,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "dumbbell": {
+  "x": 480,
+  "y": 300,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "trees": {
+  "x": 540,
+  "y": 300,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "flag": {
+  "x": 0,
+  "y": 360,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "waves": {
+  "x": 60,
+  "y": 360,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "anchor": {
+  "x": 120,
+  "y": 360,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "mountain": {
+  "x": 180,
+  "y": 360,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "clapperboard": {
+  "x": 240,
+  "y": 360,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "music": {
+  "x": 300,
+  "y": 360,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "gamepad-2": {
+  "x": 360,
+  "y": 360,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "ferris-wheel": {
+  "x": 420,
+  "y": 360,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "bed": {
+  "x": 480,
+  "y": 360,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "tent": {
+  "x": 540,
+  "y": 360,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "school": {
+  "x": 0,
+  "y": 420,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "graduation-cap": {
+  "x": 60,
+  "y": 420,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "library": {
+  "x": 120,
+  "y": 420,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "castle": {
+  "x": 180,
+  "y": 420,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "tractor": {
+  "x": 240,
+  "y": 420,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ },
+ "map-pin": {
+  "x": 300,
+  "y": 420,
+  "width": 60,
+  "height": 60,
+  "pixelRatio": 2
+ }
+}

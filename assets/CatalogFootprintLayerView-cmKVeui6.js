@@ -1,0 +1,1 @@
+import{r as e}from"./tslib.es6-qUHyP9zl.js";import{t}from"./decorators-CTQVWMDG.js";import{t as n}from"./FeatureLikeLayerView-g35VtMz0.js";var r=class extends n{constructor(){super(...arguments),this.layer=null}get updateSuspended(){let e=this.parent?.dynamicGroupLayerView;return this.suspended&&(!e||!0===e.suspended)}};e([t()],r.prototype,`updateSuspended`,null);export{r as t};

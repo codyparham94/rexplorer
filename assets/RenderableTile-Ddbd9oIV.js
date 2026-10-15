@@ -1,0 +1,1 @@
+import{t as e}from"./TiledDisplayObject-BGK1weU-.js";import{fn as t}from"./map-app-BX5-bNLJ.js";var n=class extends e{_createTransforms(){return{displayViewScreenMat3:t(),tileMat3:t()}}};export{n as t};

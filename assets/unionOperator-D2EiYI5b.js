@@ -1,0 +1,1 @@
+import"./apiConverter-CNjvPxcQ.js";import"./operatorUnion-CE7TZ0Bv.js";export{i as execute,r as executeMany,t as supportsCurves}from"./unionOperator-D9gIaAKI.js";

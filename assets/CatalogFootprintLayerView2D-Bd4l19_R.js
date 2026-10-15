@@ -1,0 +1,1 @@
+import{r as e}from"./tslib.es6-qUHyP9zl.js";import{n as t}from"./decorators-CTQVWMDG.js";import{t as n}from"./FeatureLikeLayerView2D-uW6WFA3x.js";import{t as r}from"./CatalogFootprintLayerView-cmKVeui6.js";var i=class extends n(r){};i=e([t(`esri.views.2d.layers.CatalogFootprintLayerView2D`)],i);var a=i;export{a as default};
