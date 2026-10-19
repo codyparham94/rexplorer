@@ -1,0 +1,1 @@
+import{r as e}from"./tslib.es6-qUHyP9zl.js";import{S as t,c as n}from"./decorators-DiW2Rn31.js";import{t as r}from"./GroupLayerView-BKAA1QK-.js";var i=class extends r{constructor(){super(...arguments),this.type=`group`}};e([t()],i.prototype,`view`,void 0),i=e([n(`esri.views.3d.layers.GroupLayerView3D`)],i);var a=i;export{a as default};

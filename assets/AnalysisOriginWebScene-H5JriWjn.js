@@ -1,0 +1,1 @@
+import{r as e}from"./tslib.es6-qUHyP9zl.js";import{n as t,t as n}from"./decorators-DiW2Rn31.js";import{t as r}from"./Clonable-BEZLqb2s.js";var i=class extends r{constructor(e){super(e),this.type=`web-scene`}equals(e){return this.type===e.type}};e([n()],i.prototype,`type`,void 0),i=e([t(`esri.analysis.support.AnalysisOriginWebScene`)],i);var a=i;export{a as t};

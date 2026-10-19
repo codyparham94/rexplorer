@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="RExplorer: explore land, homes and commercial property in Clarksville and Montgomery County, Tennessee." />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' blob: 'wasm-unsafe-eval' https://js.arcgis.com; worker-src 'self' blob:; style-src 'self' 'unsafe-inline' https://js.arcgis.com; img-src 'self' data: blob: https://*.arcgis.com https://*.arcgisonline.com https://hazards.fema.gov https://fwspublicservices.wim.usgs.gov https://tigerweb.geo.census.gov https://*.fbcdn.net https://*.mapillary.com; font-src 'self' data: https://js.arcgis.com https://*.arcgis.com; connect-src 'self' https://tile.googleapis.com https://*.arcgis.com https://*.arcgisonline.com https://hazards.fema.gov https://fwspublicservices.wim.usgs.gov https://tigerweb.geo.census.gov https://*.supabase.co https://maps.googleapis.com https://graph.mapillary.com; frame-src https://www.google.com; base-uri 'self'; form-action 'none'; object-src 'none'"
+    />
+    <title>RExplorer</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#0B2545" />
+    <meta property="og:title" content="RExplorer" />
+    <meta property="og:description" content="A free map for exploring land, homes and commercial property in Clarksville and Montgomery County, Tennessee." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://rexplorer.codyparham.com/brand/icon-512.png" />
+    <script type="module" crossorigin src="/assets/index-B6UeYn6p.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/Theme-DF_wQY7K.js">
+    <link rel="modulepreload" crossorigin href="/assets/config-DKkA7XQf.js">
+    <link rel="modulepreload" crossorigin href="/assets/runtime-Dq0rDinV.js">
+    <link rel="modulepreload" crossorigin href="/assets/keyed-DNo2wHpZ.js">
+    <link rel="modulepreload" crossorigin href="/assets/dom-DCBA4qJ8.js">
+    <link rel="modulepreload" crossorigin href="/assets/controllers-PeUpPUpU.js">
+    <link rel="modulepreload" crossorigin href="/assets/calcite-loader-tGiOG2Qw.js">
+    <link rel="modulepreload" crossorigin href="/assets/dom-CbHHBhwb.js">
+    <link rel="modulepreload" crossorigin href="/assets/aria-Bb3XnTen.js">
+    <link rel="modulepreload" crossorigin href="/assets/observers-D6GeA_tb.js">
+    <link rel="modulepreload" crossorigin href="/assets/calcite-icon-tB9H1J-S.js">
+    <link rel="modulepreload" crossorigin href="/assets/dynamicClasses-5T7a6PLK.js">
+    <link rel="modulepreload" crossorigin href="/assets/useSetFocus-C1rDsZxz.js">
+    <link rel="modulepreload" crossorigin href="/assets/useInteractive-DHvxZuxp.js">
+    <link rel="modulepreload" crossorigin href="/assets/useFormTrigger-C23398wN.js">
+    <link rel="modulepreload" crossorigin href="/assets/calcite-action-B2eoFtSE.js">
+    <link rel="modulepreload" crossorigin href="/assets/debounce-CoJgRzLL.js">
+    <link rel="modulepreload" crossorigin href="/assets/key-_QmfBLzM.js">
+    <link rel="modulepreload" crossorigin href="/assets/manager-D2wnNCze.js">
+    <link rel="modulepreload" crossorigin href="/assets/openCloseComponent-CxtRoRFD.js">
+    <link rel="modulepreload" crossorigin href="/assets/static-html-CQ-nwrlN.js">
+    <link rel="modulepreload" crossorigin href="/assets/FloatingArrow-BYn30GnB.js">
+    <link rel="modulepreload" crossorigin href="/assets/useFocusTrap-Dv-1jlrD.js">
+    <link rel="modulepreload" crossorigin href="/assets/calcite-action-menu-CExd7fUn.js">
+    <link rel="modulepreload" crossorigin href="/assets/calcite-action-group-q9yHYJoJ.js">
+    <link rel="modulepreload" crossorigin href="/assets/calcite-dropdown-Btn0rcE_.js">
+    <link rel="modulepreload" crossorigin href="/assets/resources8-BFhzc9lI.js">
+    <link rel="modulepreload" crossorigin href="/assets/calcite-dropdown-item-tO_Hyzpm.js">
+    <link rel="modulepreload" crossorigin href="/assets/calcite-dropdown-group-BMcIrIAr.js">
+    <link rel="modulepreload" crossorigin href="/assets/calcite-input-message-DHXx13x3.js">
+    <link rel="modulepreload" crossorigin href="/assets/label-D7RMfR8T.js">
+    <link rel="modulepreload" crossorigin href="/assets/calcite-input-BJs3di-b.js">
+    <link rel="stylesheet" crossorigin href="/assets/runtime-CGbH87qM.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-BoRhGUj9.css">
+  </head>
+  <body>
+    <!-- In a landmark so axe accepts it: its skip-link shortcut gives up once the first external link (the parcel panel buttons) sits in a shadow root. -->
+    <nav aria-label="Skip links"><a class="skip-link" href="#parcel-search">Skip to parcel search</a></nav>
+    <calcite-shell content-behind>
+      <calcite-navigation slot="header" role="banner" class="glass-nav">
+        <div slot="logo" class="site-logo"><img class="logo-light" src="/brand/rexplorer-wordmark.svg" alt="RExplorer" width="1070" height="279" /><img class="logo-dark" src="/brand/rexplorer-wordmark-dark-bg.svg" alt="" width="1070" height="279" /></div>
+        <nav slot="content-start" class="site-links" aria-label="Site">
+          <a class="site-link site-link-account" href="account.html"><span>My Account</span><span>Login</span></a>
+          <a class="site-link" href="help.html">Help Me Find…</a>
+          <a class="site-link" href="about.html">About</a>
+          <a class="site-link" href="contact.html">Contact Us</a>
+        </nav>
+        <div slot="content-end" class="nav-tools">
+          <calcite-autocomplete
+            id="parcel-search"
+            class="parcel-search"
+            label="Search by address, city, ZIP code or parcel ID"
+            placeholder="Address, city, ZIP or parcel ID"
+            icon="search"
+            scale="s"
+          ></calcite-autocomplete>
+          <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false" aria-label="Night mode"><calcite-icon icon="moon" scale="s" aria-hidden="true"></calcite-icon></button>
+        </div>
+      </calcite-navigation>
+
+      <calcite-shell-panel slot="panel-start" display-mode="float-content" id="side-panel" role="complementary" aria-label="Map tools and details">
+        <calcite-action-bar slot="action-bar" expand-disabled class="floating-actions">
+          <calcite-action data-panel="filter" text="Find parcels" icon="filter" active></calcite-action>
+          <calcite-action data-panel="parcel" text="Parcel" icon="polygon"></calcite-action>
+          <calcite-action data-panel="compare" text="Compare" icon="compare" id="compare-action"></calcite-action>
+          <calcite-action data-panel="favorites" text="Favorites" icon="star" id="favorites-action"></calcite-action>
+          <calcite-action data-panel="about" text="About and data" icon="information"></calcite-action>
+        </calcite-action-bar>
+
+        <calcite-panel heading="Parcel" data-panel-id="parcel" hidden>
+          <calcite-action slot="header-actions-end" id="parcel-clear" icon="x" text="Clear selection"></calcite-action>
+          <div id="parcel-content" class="parcel-content">
+            <p class="parcel-message">Click a parcel on the map, or search by address or parcel ID.</p>
+          </div>
+        </calcite-panel>
+        <calcite-panel heading="Find parcels" data-panel-id="filter">
+          <div id="filter-form" class="filter-form">
+            <calcite-block id="f-forsale-block" heading="For sale" description="Homes and land with an active listing" icon-start="tag" collapsible expanded>
+              <calcite-label layout="inline">
+                <calcite-switch id="f-forsale"></calcite-switch>
+                For sale now
+              </calcite-label>
+              <div class="filter-row">
+                <calcite-label>Price up to
+                  <calcite-select id="f-price" scale="s" label="Price up to">
+                    <calcite-option value="">Any price</calcite-option>
+                    <calcite-option value="150000">$150,000</calcite-option>
+                    <calcite-option value="250000">$250,000</calcite-option>
+                    <calcite-option value="350000">$350,000</calcite-option>
+                    <calcite-option value="500000">$500,000</calcite-option>
+                    <calcite-option value="750000">$750,000</calcite-option>
+                    <calcite-option value="1000000">$1 million</calcite-option>
+                    <calcite-option value="2500000">$2.5 million</calcite-option>
+                  </calcite-select>
+                </calcite-label>
+                <calcite-label>Property type
+                  <calcite-select id="f-ptype" scale="s" label="Property type">
+                    <calcite-option value="">Any type</calcite-option>
+                    <calcite-option value="home">Houses, condos, townhomes</calcite-option>
+                    <calcite-option value="multifamily">Multi-family</calcite-option>
+                    <calcite-option value="land">Land</calcite-option>
+                  </calcite-select>
+                </calcite-label>
+              </div>
+              <p class="filter-hint">A price or type shows listed parcels only.</p>
+            </calcite-block>
+            <calcite-block heading="Suitability score" description="Rank parcels for a use, or keep only high scores" icon-start="graph-bar" collapsible expanded>
+              <calcite-label>Rank by suitability for
+                <calcite-select id="f-use" scale="s" label="Rank by suitability for">
+                  <calcite-option value="">Don't rank (largest first)</calcite-option>
+                  <calcite-option value="restaurant">Restaurant</calcite-option>
+                  <calcite-option value="retail">Retail</calcite-option>
+                  <calcite-option value="office">Office</calcite-option>
+                  <calcite-option value="warehouse">Warehouse</calcite-option>
+                  <calcite-option value="multifamily">Apartments</calcite-option>
+                  <calcite-option value="medical_office">Medical office</calcite-option>
+                  <calcite-option value="self_storage">Self storage</calcite-option>
+                </calcite-select>
+              </calcite-label>
+              <calcite-label>
+                <span>Minimum score: <span id="f-score-value" class="score-value-text">Pick a use first</span></span>
+                <calcite-slider id="f-score" min="0" max="100" step="5" value="0" ticks="25" label-ticks scale="s" disabled></calcite-slider>
+              </calcite-label>
+              <p class="filter-hint">Screening scores (model v1), not appraisals. Parcels without enough data are never counted as high scores.</p>
+            </calcite-block>
+            <calcite-block heading="Size and zoning" icon-start="dimensions" collapsible expanded>
+              <div class="filter-row">
+                <calcite-label>Acres from
+                  <calcite-input-number id="f-min" min="0" step="any" placeholder="Any" scale="s"></calcite-input-number>
+                </calcite-label>
+                <calcite-label>to
+                  <calcite-input-number id="f-max" min="0" step="any" placeholder="Any" scale="s"></calcite-input-number>
+                </calcite-label>
+              </div>
+              <fieldset class="filter-group">
+                <legend>Zoning class</legend>
+                <div id="f-zoning" class="chip-checks"></div>
+              </fieldset>
+              <calcite-label>Land use
+                <calcite-combobox id="f-landuse" selection-mode="multiple" placeholder="Any land use" scale="s" label="Land use"></calcite-combobox>
+              </calcite-label>
+              <calcite-label layout="inline">
+                <calcite-switch id="f-vacant"></calcite-switch>
+                Vacant land only
+              </calcite-label>
+            </calcite-block>
+            <calcite-block heading="Access and traffic" icon-start="road-sign" collapsible>
+              <calcite-label>Traffic on an adjacent road
+                <calcite-select id="f-aadt" scale="s" label="Traffic on an adjacent road">
+                  <calcite-option value="">Any</calcite-option>
+                  <calcite-option value="5000">5,000+ vehicles a day</calcite-option>
+                  <calcite-option value="10000">10,000+ vehicles a day</calcite-option>
+                  <calcite-option value="20000">20,000+ vehicles a day</calcite-option>
+                </calcite-select>
+              </calcite-label>
+              <calcite-label>Interstate or freeway
+                <calcite-select id="f-highway" scale="s" label="Interstate or freeway">
+                  <calcite-option value="">Any distance</calcite-option>
+                  <calcite-option value="1609">Within 1 mile</calcite-option>
+                  <calcite-option value="4828">Within 3 miles</calcite-option>
+                  <calcite-option value="8047">Within 5 miles</calcite-option>
+                </calcite-select>
+              </calcite-label>
+              <calcite-label>City limits
+                <calcite-select id="f-city" scale="s" label="City limits">
+                  <calcite-option value="">Inside or outside</calcite-option>
+                  <calcite-option value="true">Inside city limits</calcite-option>
+                  <calcite-option value="false">Outside city limits</calcite-option>
+                </calcite-select>
+              </calcite-label>
+            </calcite-block>
+            <calcite-block heading="People and jobs nearby" icon-start="users" collapsible>
+              <calcite-label>Residents within 1 mile
+                <calcite-select id="f-pop" scale="s" label="Residents within 1 mile">
+                  <calcite-option value="">Any</calcite-option>
+                  <calcite-option value="2500">2,500+</calcite-option>
+                  <calcite-option value="5000">5,000+</calcite-option>
+                  <calcite-option value="10000">10,000+</calcite-option>
+                </calcite-select>
+              </calcite-label>
+              <calcite-label>Jobs within 1 mile
+                <calcite-select id="f-jobs" scale="s" label="Jobs within 1 mile">
+                  <calcite-option value="">Any</calcite-option>
+                  <calcite-option value="1000">1,000+</calcite-option>
+                  <calcite-option value="5000">5,000+</calcite-option>
+                  <calcite-option value="10000">10,000+</calcite-option>
+                </calcite-select>
+              </calcite-label>
+              <calcite-label>Median household income (block group)
+                <calcite-select id="f-income" scale="s" label="Median household income">
+                  <calcite-option value="">Any</calcite-option>
+                  <calcite-option value="40000">$40,000+</calcite-option>
+                  <calcite-option value="60000">$60,000+</calcite-option>
+                  <calcite-option value="80000">$80,000+</calcite-option>
+                </calcite-select>
+              </calcite-label>
+            </calcite-block>
+            <calcite-block heading="Environment" icon-start="tree" collapsible>
+              <calcite-label>100-year floodplain
+                <calcite-select id="f-flood" scale="s" label="100-year floodplain">
+                  <calcite-option value="">Any</calcite-option>
+                  <calcite-option value="10">Less than 10% of the parcel</calcite-option>
+                  <calcite-option value="0">None of the parcel</calcite-option>
+                </calcite-select>
+              </calcite-label>
+              <calcite-label>Average slope
+                <calcite-select id="f-slope" scale="s" label="Average slope">
+                  <calcite-option value="">Any</calcite-option>
+                  <calcite-option value="5">Under 5% (flat)</calcite-option>
+                  <calcite-option value="10">Under 10%</calcite-option>
+                  <calcite-option value="15">Under 15%</calcite-option>
+                </calcite-select>
+              </calcite-label>
+              <calcite-label layout="inline">
+                <calcite-switch id="f-wetland"></calcite-switch>
+                No mapped wetlands
+              </calcite-label>
+            </calcite-block>
+            <div class="filter-buttons">
+              <calcite-button id="f-apply" scale="m" width="full">Show parcels</calcite-button>
+              <calcite-button id="f-reset" scale="m" appearance="outline" kind="neutral">Reset</calcite-button>
+            </div>
+          </div>
+          <div id="filter-results" class="parcel-content"></div>
+        </calcite-panel>
+        <calcite-panel heading="Compare parcels" data-panel-id="compare" hidden>
+          <div id="compare-content" class="parcel-content"></div>
+        </calcite-panel>
+        <calcite-panel heading="Favorites" data-panel-id="favorites" hidden>
+          <div id="favorites-content" class="parcel-content"></div>
+        </calcite-panel>
+        <calcite-panel heading="About and data" data-panel-id="about" hidden>
+          <calcite-block expanded heading="About RExplorer">
+            <p class="about-text">
+              A free, read-only map for exploring land, homes and commercial property in Clarksville and Montgomery
+              County, Tennessee: parcels, listings, zoning, flood zones, traffic, elevation and nearby businesses,
+              each with its source and date.
+              No account, no tracking, no downloads. Owner names and mailing addresses are never collected.
+            </p>
+            <p class="about-text">
+              For research only. It is not a survey, title search, appraisal or flood determination; confirm
+              anything important with the county or the business.
+            </p>
+          </calcite-block>
+          <calcite-block expanded heading="Preview build" id="preview-note">
+            <p>
+              This is an early preview. Parcel data is not shown yet while permission from the data owners is pending.
+            </p>
+          </calcite-block>
+          <calcite-block expanded heading="Data sources">
+            <ul class="sources" id="source-list">
+              <li>
+                Flood hazard zones: FEMA National Flood Hazard Layer, displayed live from FEMA's public map service.
+                For information only; not an official flood determination.
+              </li>
+              <li id="parcel-source" class="static-db-source" hidden>
+                Parcels and zoning: Montgomery County Assessor of Property and APSU GIS Center, shown with their
+                permission for this personal, non-commercial project. Downloads are not offered. Owner names and
+                mailing addresses are never collected.
+              </li>
+              <li id="business-source" class="static-db-source" hidden>
+                Businesses and places: Overture Maps Foundation and its contributors (Meta, Microsoft, Foursquare,
+                AllThePlaces and others), under CDLA-Permissive-2.0, Apache-2.0 or CC0-1.0 per record.
+              </li>
+              <li>Basemap: Esri and its data providers (see map attribution).</li>
+            </ul>
+          </calcite-block>
+          <calcite-block expanded heading="Credits">
+            <ul class="sources credits-list">
+              <li id="parcel-credit" hidden></li>
+              <li id="business-credit" hidden>Businesses and places: Overture Maps Foundation and its contributors (CDLA-Permissive-2.0, Apache-2.0 or CC0-1.0 per record).</li>
+              <li>Buildings on each parcel: Overture Maps Foundation (ODbL 1.0); © OpenStreetMap contributors, Microsoft, Google Open Buildings, Esri Community Maps.</li>
+              <li>Basemap: Esri and its data providers. 3D buildings: Esri 3D Buildings (TomTom, Vantor, Esri Community Maps, OpenStreetMap contributors, Microsoft, Google Open Buildings, USGS).</li>
+              <li>Flood zones: FEMA National Flood Hazard Layer. Wetlands: USFWS National Wetlands Inventory. City limits: U.S. Census TIGERweb. Road projects and traffic counts: TDOT. Elevation: Esri World Elevation (USGS 3D Elevation Program).</li>
+              <li>Parcel photos: street-level photos from Mapillary contributors (CC BY-SA 4.0), credited on each photo; aerial photos from Esri World Imagery (Esri and its imagery providers).</li>
+              <li>Business icons: Lucide (ISC license).</li>
+            </ul>
+          </calcite-block>
+        </calcite-panel>
+      </calcite-shell-panel>
+
+      <arcgis-map id="map" role="main" aria-label="Map">
+        <arcgis-zoom slot="top-right"></arcgis-zoom>
+        <arcgis-home slot="top-right"></arcgis-home>
+        <calcite-notice id="startup-error" slot="top-left" kind="danger" icon="exclamation-mark-circle">
+          <div slot="message">The map could not start. Check your connection and reload the page.</div>
+        </calcite-notice>
+        <calcite-notice id="basemap-notice" slot="bottom-left" kind="warning" icon="exclamation-mark-triangle">
+          <div slot="message">Basemap unavailable: no Esri API key is configured for this build.</div>
+        </calcite-notice>
+        <arcgis-scale-bar slot="bottom-right" bar-style="line" unit="imperial"></arcgis-scale-bar>
+      </arcgis-map>
+      <!-- The 3D view (buildings-3d.ts) replaces the map while 3D buildings are on. -->
+      <div id="scene-view" class="scene-view" hidden></div>
+
+    </calcite-shell>
+    <!-- Layers, on the right and open from the start (layers-card.ts). Each layer's legend opens
+         under its own row; the parts below are moved into those rows. -->
+    <aside id="layers-card" class="layers-card" aria-label="Layers">
+      <div class="layers-head">
+        <button type="button" id="layers-toggle" class="layers-toggle" aria-expanded="true" aria-controls="layers-body">
+          <calcite-icon icon="layers" scale="s" aria-hidden="true"></calcite-icon>
+          <span class="layers-title">Layers</span>
+          <calcite-icon class="layers-chevron" icon="chevron-up" scale="s" aria-hidden="true"></calcite-icon>
+        </button>
+      </div>
+      <div id="layers-body" class="layers-body">
+        <calcite-label layout="inline" class="basemap-labels">
+          <calcite-switch id="basemap-labels" checked></calcite-switch>
+          Basemap labels
+        </calcite-label>
+        <calcite-label layout="inline" class="basemap-labels map-tooltips">
+          <calcite-switch id="map-tooltips" checked></calcite-switch>
+          Map tooltips
+        </calcite-label>
+        <!-- One row per layer (layers-card.ts): checkbox, name, then Legend and Labels pills. -->
+        <ul id="layer-rows" class="layer-rows" aria-label="Map layers"></ul>
+      </div>
+      <div class="legend-parts" hidden>
+        <div id="business-categories" class="categories legend-part"></div>
+        <ul id="zoning-legend" class="swatches legend-part">
+          <li><span class="swatch" style="background: #d9534f"></span>Commercial</li>
+          <li><span class="swatch" style="background: #4a90c2"></span>Office</li>
+          <li><span class="swatch" style="background: #8e6cc0"></span>Industrial</li>
+          <li><span class="swatch" style="background: #f0c94a"></span>Residential</li>
+          <li><span class="swatch" style="background: #8fbf6a"></span>Agricultural</li>
+          <li><span class="swatch" style="background: #a6a6a6"></span>Other (planned unit, special districts)</li>
+        </ul>
+        <ul id="parcel-legend" class="swatches legend-part">
+          <li><span class="swatch" style="background: rgba(237, 101, 64, 0.5)"></span>Commercial, industrial or vacant commercial land use</li>
+          <li><span class="swatch outline"></span>Parcel boundary (zoom in)</li>
+          <li><span class="swatch selected"></span>Selected parcel</li>
+        </ul>
+      </div>
+    </aside>
+    <!-- Quick filters over the map (filter-panel.ts adds the chips). -->
+    <nav id="quick-filters" class="quick-filters" aria-label="Quick filters">
+      <!-- Search while the header is tucked away (chrome.ts brings the header back to type in). -->
+      <button type="button" id="search-open" class="chip chip-search" aria-label="Search" title="Search by address, city, ZIP or parcel ID"><calcite-icon icon="search" scale="s" aria-hidden="true"></calcite-icon>Search</button>
+      <button type="button" id="filter-open" class="chip chip-all">
+        <calcite-icon icon="sliders-horizontal" scale="s" aria-hidden="true"></calcite-icon>Filters<span id="filter-count" class="filter-count" hidden>0</span>
+      </button>
+      <div id="quick-chips" class="chip-row"></div>
+    </nav>
+    <!-- "Loading…" while the map or a request catches up (busy.ts). -->
+    <div id="busy" class="busy-pill" role="status" aria-live="polite"><span class="busy-dot" aria-hidden="true"></span>Loading…</div>
+    <section class="map-options" aria-label="Map options">
+      <!-- Pinned to the far bottom-left corner, under the tool buttons: 3D buildings, then the basemap. -->
+      <div class="map-dock">
+        <div id="try-3d" class="try-3d" role="note" hidden>Try 3D View!</div>
+        <button type="button" id="buildings-3d" class="dock-button" aria-pressed="false" title="3D buildings"><span class="dock-label" aria-hidden="true">3D</span><span class="visually-hidden">3D buildings</span></button>
+        <div class="basemap-toggle" role="group" aria-label="Basemap">
+          <button type="button" data-basemap="map" aria-pressed="true" title="Map"><calcite-icon icon="map" scale="s" aria-hidden="true"></calcite-icon><span class="visually-hidden">Map</span></button>
+          <button type="button" data-basemap="satellite" aria-pressed="false" title="Satellite"><calcite-icon icon="satellite-3" scale="s" aria-hidden="true"></calcite-icon><span class="visually-hidden">Satellite</span></button>
+        </div>
+      </div>
+    </section>
+    <!-- Hovering the top edge brings the hidden header back (see chrome.ts). -->
+    <div class="header-reveal" aria-hidden="true"><span></span></div>
+    <section id="landing" class="landing" aria-labelledby="landing-title" hidden>
+      <div class="landing-glow" aria-hidden="true"></div>
+      <a class="landing-account" href="account.html"><calcite-icon icon="user" scale="s" aria-hidden="true"></calcite-icon>Login / My account</a>
+      <nav class="landing-links" aria-label="Site">
+        <a href="help.html">Help Me Find…</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+      <p class="landing-credit">Map: Esri, Vantor and the GIS user community · Parcels: Montgomery County Assessor of Property, APSU GIS Center</p>
+      <div class="landing-card">
+        <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false" aria-label="Night mode"><calcite-icon icon="moon" scale="s" aria-hidden="true"></calcite-icon></button>
+        <h1 id="landing-title" class="landing-title"><img src="/brand/rexplorer-wordmark-dark-bg.svg" alt="RExplorer" width="1070" height="279" /></h1>
+        <p class="landing-tagline">Land, homes and commercial property in Clarksville, Tennessee</p>
+        <div class="landing-search">
+          <calcite-autocomplete
+            id="landing-search"
+            label="Enter an address, city, or zip code"
+            placeholder="Enter an address, city, or zip code"
+            icon="search"
+            scale="l"
+          ></calcite-autocomplete>
+          <calcite-button id="landing-go" scale="l" icon-start="search">Search</calcite-button>
+        </div>
+        <h2 class="landing-ask" id="landing-ask">I want to…</h2>
+        <div class="scenario-grid" role="group" aria-labelledby="landing-ask">
+          <button type="button" class="scenario" data-scenario="business">
+            <calcite-icon icon="shopping-cart" scale="m" aria-hidden="true"></calcite-icon>
+            <span class="scenario-title">Find a parcel to build a new business</span>
+            <span class="scenario-hint">Vacant commercial land, ranked for retail</span>
+          </button>
+          <button type="button" class="scenario" data-scenario="multifamily">
+            <calcite-icon icon="urban-model" scale="m" aria-hidden="true"></calcite-icon>
+            <span class="scenario-title">Look for a multi-family investment property</span>
+            <span class="scenario-hint">Ranked by apartment suitability</span>
+          </button>
+          <button type="button" class="scenario" data-scenario="build-home">
+            <calcite-icon icon="home" scale="m" aria-hidden="true"></calcite-icon>
+            <span class="scenario-title">Buy land to build a home</span>
+            <span class="scenario-hint">Vacant residential lots out of the floodplain</span>
+          </button>
+          <button type="button" class="scenario" data-scenario="buy-home">
+            <calcite-icon icon="tag" scale="m" aria-hidden="true"></calcite-icon>
+            <span class="scenario-title">Find a home for sale</span>
+            <span class="scenario-hint">Houses, condos and townhomes listed now</span>
+          </button>
+          <button type="button" class="scenario" data-scenario="acreage">
+            <calcite-icon icon="tree" scale="m" aria-hidden="true"></calcite-icon>
+            <span class="scenario-title">Buy acreage or farmland</span>
+            <span class="scenario-hint">Agricultural parcels of 10 acres or more</span>
+          </button>
+          <button type="button" class="scenario" data-scenario="industrial">
+            <calcite-icon icon="truck-travel-mode" scale="m" aria-hidden="true"></calcite-icon>
+            <span class="scenario-title">Site a warehouse or industrial use</span>
+            <span class="scenario-hint">Industrial zoning, ranked for warehouses</span>
+          </button>
+        </div>
+        <calcite-button id="landing-browse" class="landing-browse" scale="m" appearance="transparent" kind="neutral" icon-end="arrow-right">Just browsing? Explore downtown Clarksville</calcite-button>
+      </div>
+    </section>
+  </body>
+</html>
